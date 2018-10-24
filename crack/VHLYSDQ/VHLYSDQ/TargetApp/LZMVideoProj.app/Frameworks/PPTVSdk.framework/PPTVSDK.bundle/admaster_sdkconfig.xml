@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!--媒体平台相关配置-->
+<config xsi:noNamespaceSchemaLocation="SDKSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <!--缓存队列设置-->
+    <offlineCache>
+        <length>0</length>
+        <queueExpirationSecs>10</queueExpirationSecs>
+         <!--发送超时时间-->
+        <timeout>10</timeout>
+    </offlineCache>
+
+    <companies>
+        <company>
+            <name>admaster</name>
+            <domain>
+                <!-- 此处需修改为第三方检测公司监测代码的 host 部分 -->
+                <url>admaster.com.cn</url>
+            </domain>
+            <signature>
+                <publicKey>Z83476Hel</publicKey>
+                <paramKey>sign</paramKey>
+            </signature>
+            <switch>
+                <isTrackLocation>false</isTrackLocation>
+                <!-- 失效时间，单位秒 -->
+                <offlineCacheExpiration>259200</offlineCacheExpiration>
+            </switch>
+            <config>
+                <arguments>
+                    <!--argument的必选和常用可选参数 key需确定-->
+                    <!--必选函数-->
+                    <argument>
+                        <key>IMEI</key>
+                        <value>0c</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MAC</key>
+                        <value>n</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>AndroidID</key>
+                        <value>0d</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>IDFA</key>
+                        <value>z</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OpenUDID</key>
+                        <value>o</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ODIN</key>
+                        <value>0g</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>DUID</key>
+                        <value>0e</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>IP</key>
+                        <value>f</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>                
+                    <argument>
+                        <key>TS</key>
+                        <value>t</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OS</key>
+                        <value>0a</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OSV</key>
+                        <value>q</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>TERM</key>
+                        <value>r</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>WIFI</key>
+                        <value>w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>SCWH</key>
+                        <value>0f</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>AKEY</key>
+                        <value>x</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>ANAME</key>
+                        <value>y</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>SIGN</key>
+                        <value>0b</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>SDKV</key>
+                        <value>0l</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>IMEI_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MAC_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>AndroidID_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>IDFV</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ISROOT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <!-- 选填参数 -->
+
+                    <argument>
+                        <key>APMAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>APNAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                     <argument>
+                        <key>MCC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MNC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                     <argument>
+                        <key>IMSI</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>PHONENAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>Android_MAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>FORES</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>LIGHT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ISOFFLINE</key>
+                        <value>0v</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+					
+                </arguments>
+            </config>
+            <separator>,</separator>
+            <!--<separator>&amp;</separator>-->
+            <equalizer></equalizer>
+            <!--如果设置true   timeStamper使用秒-->
+            <timeStampUseSecond>false</timeStampUseSecond>
+        </company>
+        
+        <!-- 原配置文件 -->
+        
+        <company>
+            <name>admaster_ConversionMaster</name>
+            <domain>
+                <!-- 此处需修改为第三方检测公司监测代码的 host 部分 -->
+                <url>fw4.me</url>
+            </domain>
+            <signature>
+                <publicKey>Z83476Hel</publicKey>
+                <paramKey>sign</paramKey>
+            </signature>
+            <switch>
+                <isTrackLocation>false</isTrackLocation>
+                <!-- 失效时间，单位秒 -->
+                <offlineCacheExpiration>259200</offlineCacheExpiration>
+                <encrypt>
+                    <MAC>md5</MAC>
+                    <IDA>md5</IDA>
+                    <IMEI>md5</IMEI>
+                    <ANDROIDID>raw</ANDROIDID>
+                </encrypt>
+            </switch>
+            <config>
+                <arguments>
+                    <!--argument的必选和常用可选参数 key需确定-->
+                    <!--必选函数-->
+                    <argument>
+                        <key>OS</key>
+                        <value>0a</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>TS</key>
+                        <value>t</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>MAC</key>
+                        <value>n</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>IDFA</key>
+                        <value>z</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>IDFAMD5</key>
+                        <value>Oj</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>IMEI</key>
+                        <value>0c</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>ANDROIDID</key>
+                        <value>0d</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>WIFI</key>
+                        <value>w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>AKEY</key>
+                        <value>x</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>ANAME</key>
+                        <value>y</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <!--可选函数-->
+                    <argument>
+                        <key>SCWH</key>
+                        <value>0f</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>OPENUDID</key>
+                        <value>o</value>
+                        <urlEncode>true</urlEncode>   
+                    </argument>
+
+                    <argument>
+                        <key>ODIN</key>
+                        <value>0g</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>TERM</key>
+                        <value>r</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>OSVS</key>
+                        <value>q</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                    <argument>
+                        <key>LBS</key>
+                        <value>l</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>SDKVS</key>
+                        <value>0l</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    <argument>
+                        <key>IMEI_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>MAC_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>AndroidID_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>IDFV</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>ISROOT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>APMAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>APNAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                     <argument>
+                        <key>MCC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>MNC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                     <argument>
+                        <key>IMSI</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+
+                    <argument>
+                        <key>PHONENAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    <argument>
+                        <key>Android_MAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>FORES</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>LIGHT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ISOFFLINE</key>
+                        <value>0v</value>
+                        <urlEncode>true</urlEncode>
+                    </argument>
+                    
+                </arguments>
+            </config>
+            <separator>,</separator>
+            <!--<separator>&amp;</separator>-->
+            <equalizer></equalizer>
+            <!--如果设置true   timeStamper使用秒-->
+            <timeStampUseSecond>false</timeStampUseSecond>
+        </company>
+
+        <company>
+            <name>admaster niandai_lndata</name>
+            <domain>
+                <!-- 此处需修改为第三方检测公司监测代码的 host 部分 -->
+                <url>lndata.com</url>
+            </domain>
+            <signature>
+                <publicKey>Z83476Hel</publicKey>
+                <paramKey>sign</paramKey>
+            </signature>
+            <switch>
+                <isTrackLocation>false</isTrackLocation>
+                <!-- 失效时间，单位秒 -->
+                <offlineCacheExpiration>259200</offlineCacheExpiration>
+            </switch>
+            <config>
+                <arguments>
+                    <!--argument的必选和常用可选参数 key需确定-->
+                    <!--必选函数-->
+                    <argument>
+                        <key>IMEI</key>
+                        <value>0c</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MAC</key>
+                        <value>n</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>AndroidID</key>
+                        <value>0d</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>IDFA</key>
+                        <value>z</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OpenUDID</key>
+                        <value>o</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ODIN</key>
+                        <value>0g</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>DUID</key>
+                        <value>0e</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>IP</key>
+                        <value>f</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>                
+                    <argument>
+                        <key>TS</key>
+                        <value>t</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OS</key>
+                        <value>0a</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>OSV</key>
+                        <value>q</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>TERM</key>
+                        <value>r</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>WIFI</key>
+                        <value>w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>SCWH</key>
+                        <value>0f</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>AKEY</key>
+                        <value>x</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>ANAME</key>
+                        <value>y</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>SIGN</key>
+                        <value>0b</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>SDKVS</key>
+                        <value>0l</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>IMEI_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MAC_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>AndroidID_RAW</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+
+                    <argument>
+                        <key>IDFV</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ISROOT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <!-- 选填参数 -->
+
+                    <argument>
+                        <key>APMAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>APNAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                     <argument>
+                        <key>MCC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>MNC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                     <argument>
+                        <key>IMSI</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>PHONENAME</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>Android_MAC</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>FORES</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>LIGHT</key>
+                        <value>0w</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    <argument>
+                        <key>ISOFFLINE</key>
+                        <value>0v</value>
+                        <urlEncode>true</urlEncode>
+                        
+                    </argument>
+                    
+                </arguments>
+            </config>
+            <separator>,</separator>
+            <!--<separator>&amp;</separator>-->
+            <equalizer></equalizer>
+            <!--如果设置true   timeStamper使用秒-->
+            <timeStampUseSecond>false</timeStampUseSecond>
+        </company>
+        
+    </companies>
+</config>

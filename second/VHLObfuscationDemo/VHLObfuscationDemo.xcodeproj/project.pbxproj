@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF82124B217E034F0088656A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82124A217E034F0088656A /* AppDelegate.m */; };
+		BF82124E217E034F0088656A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82124D217E034F0088656A /* ViewController.m */; };
+		BF821251217E034F0088656A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF82124F217E034F0088656A /* Main.storyboard */; };
+		BF821253217E03500088656A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF821252217E03500088656A /* Assets.xcassets */; };
+		BF821256217E03500088656A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF821254217E03500088656A /* LaunchScreen.storyboard */; };
+		BF821259217E03500088656A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF821258217E03500088656A /* main.m */; };
+		BF821263217E03500088656A /* VHLObfuscationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF821262217E03500088656A /* VHLObfuscationDemoTests.m */; };
+		BF82126E217E03500088656A /* VHLObfuscationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82126D217E03500088656A /* VHLObfuscationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF82125F217E03500088656A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF82123E217E034F0088656A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF821245217E034F0088656A;
+			remoteInfo = VHLObfuscationDemo;
+		};
+		BF82126A217E03500088656A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF82123E217E034F0088656A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF821245217E034F0088656A;
+			remoteInfo = VHLObfuscationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF821246217E034F0088656A /* VHLObfuscationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VHLObfuscationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF821249217E034F0088656A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF82124A217E034F0088656A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF82124C217E034F0088656A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF82124D217E034F0088656A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF821250217E034F0088656A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF821252217E03500088656A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF821255217E03500088656A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF821257217E03500088656A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF821258217E03500088656A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF82125E217E03500088656A /* VHLObfuscationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHLObfuscationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF821262217E03500088656A /* VHLObfuscationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHLObfuscationDemoTests.m; sourceTree = "<group>"; };
+		BF821264217E03500088656A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF821269217E03500088656A /* VHLObfuscationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHLObfuscationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82126D217E03500088656A /* VHLObfuscationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHLObfuscationDemoUITests.m; sourceTree = "<group>"; };
+		BF82126F217E03500088656A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8212DF217F0ACA0088656A /* confuse.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		BF8212E0217F0ACA0088656A /* func.list */ = {isa = PBXFileReference; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		BF9A52A0217F169200F6003E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF9A52A1217F176300F6003E /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF821243217E034F0088656A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82125B217E03500088656A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF821266217E03500088656A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF82123D217E034F0088656A = {
+			isa = PBXGroup;
+			children = (
+				BF821248217E034F0088656A /* VHLObfuscationDemo */,
+				BF821261217E03500088656A /* VHLObfuscationDemoTests */,
+				BF82126C217E03500088656A /* VHLObfuscationDemoUITests */,
+				BF821247217E034F0088656A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF821247217E034F0088656A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF821246217E034F0088656A /* VHLObfuscationDemo.app */,
+				BF82125E217E03500088656A /* VHLObfuscationDemoTests.xctest */,
+				BF821269217E03500088656A /* VHLObfuscationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF821248217E034F0088656A /* VHLObfuscationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212DD217F0ACA0088656A /* VHLObfuscation */,
+				BF821249217E034F0088656A /* AppDelegate.h */,
+				BF82124A217E034F0088656A /* AppDelegate.m */,
+				BF82124C217E034F0088656A /* ViewController.h */,
+				BF82124D217E034F0088656A /* ViewController.m */,
+				BF9A52A0217F169200F6003E /* PrefixHeader.pch */,
+				BF82124F217E034F0088656A /* Main.storyboard */,
+				BF821252217E03500088656A /* Assets.xcassets */,
+				BF821254217E03500088656A /* LaunchScreen.storyboard */,
+				BF821257217E03500088656A /* Info.plist */,
+				BF821258217E03500088656A /* main.m */,
+			);
+			path = VHLObfuscationDemo;
+			sourceTree = "<group>";
+		};
+		BF821261217E03500088656A /* VHLObfuscationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF821262217E03500088656A /* VHLObfuscationDemoTests.m */,
+				BF821264217E03500088656A /* Info.plist */,
+			);
+			path = VHLObfuscationDemoTests;
+			sourceTree = "<group>";
+		};
+		BF82126C217E03500088656A /* VHLObfuscationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF82126D217E03500088656A /* VHLObfuscationDemoUITests.m */,
+				BF82126F217E03500088656A /* Info.plist */,
+			);
+			path = VHLObfuscationDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF8212DD217F0ACA0088656A /* VHLObfuscation */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A52A1217F176300F6003E /* codeObfuscation.h */,
+				BF8212DF217F0ACA0088656A /* confuse.sh */,
+				BF8212E0217F0ACA0088656A /* func.list */,
+			);
+			path = VHLObfuscation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF821245217E034F0088656A /* VHLObfuscationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF821272217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemo" */;
+			buildPhases = (
+				BF821242217E034F0088656A /* Sources */,
+				BF821243217E034F0088656A /* Frameworks */,
+				BF821244217E034F0088656A /* Resources */,
+				BF8212DC217F07D80088656A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VHLObfuscationDemo;
+			productName = VHLObfuscationDemo;
+			productReference = BF821246217E034F0088656A /* VHLObfuscationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF82125D217E03500088656A /* VHLObfuscationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF821275217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemoTests" */;
+			buildPhases = (
+				BF82125A217E03500088656A /* Sources */,
+				BF82125B217E03500088656A /* Frameworks */,
+				BF82125C217E03500088656A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF821260217E03500088656A /* PBXTargetDependency */,
+			);
+			name = VHLObfuscationDemoTests;
+			productName = VHLObfuscationDemoTests;
+			productReference = BF82125E217E03500088656A /* VHLObfuscationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF821268217E03500088656A /* VHLObfuscationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF821278217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemoUITests" */;
+			buildPhases = (
+				BF821265217E03500088656A /* Sources */,
+				BF821266217E03500088656A /* Frameworks */,
+				BF821267217E03500088656A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF82126B217E03500088656A /* PBXTargetDependency */,
+			);
+			name = VHLObfuscationDemoUITests;
+			productName = VHLObfuscationDemoUITests;
+			productReference = BF821269217E03500088656A /* VHLObfuscationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF82123E217E034F0088656A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Darnel Studio";
+				TargetAttributes = {
+					BF821245217E034F0088656A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF82125D217E03500088656A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF821245217E034F0088656A;
+					};
+					BF821268217E03500088656A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF821245217E034F0088656A;
+					};
+				};
+			};
+			buildConfigurationList = BF821241217E034F0088656A /* Build configuration list for PBXProject "VHLObfuscationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF82123D217E034F0088656A;
+			productRefGroup = BF821247217E034F0088656A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF821245217E034F0088656A /* VHLObfuscationDemo */,
+				BF82125D217E03500088656A /* VHLObfuscationDemoTests */,
+				BF821268217E03500088656A /* VHLObfuscationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF821244217E034F0088656A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF821256217E03500088656A /* LaunchScreen.storyboard in Resources */,
+				BF821253217E03500088656A /* Assets.xcassets in Resources */,
+				BF821251217E034F0088656A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82125C217E03500088656A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF821267217E03500088656A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF8212DC217F07D80088656A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PROJECT_DIR/VHLObfuscationDemo/VHLObfuscation/confuse.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF821242217E034F0088656A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82124E217E034F0088656A /* ViewController.m in Sources */,
+				BF821259217E03500088656A /* main.m in Sources */,
+				BF82124B217E034F0088656A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82125A217E03500088656A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF821263217E03500088656A /* VHLObfuscationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF821265217E03500088656A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82126E217E03500088656A /* VHLObfuscationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF821260217E03500088656A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF821245217E034F0088656A /* VHLObfuscationDemo */;
+			targetProxy = BF82125F217E03500088656A /* PBXContainerItemProxy */;
+		};
+		BF82126B217E03500088656A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF821245217E034F0088656A /* VHLObfuscationDemo */;
+			targetProxy = BF82126A217E03500088656A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF82124F217E034F0088656A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF821250217E034F0088656A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF821254217E03500088656A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF821255217E03500088656A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF821270217E03500088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF821271217E03500088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF821273217E03500088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				GCC_PREFIX_HEADER = VHLObfuscationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = VHLObfuscationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF821274217E03500088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				GCC_PREFIX_HEADER = VHLObfuscationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = VHLObfuscationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF821276217E03500088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				INFOPLIST_FILE = VHLObfuscationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHLObfuscationDemo.app/VHLObfuscationDemo";
+			};
+			name = Debug;
+		};
+		BF821277217E03500088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				INFOPLIST_FILE = VHLObfuscationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHLObfuscationDemo.app/VHLObfuscationDemo";
+			};
+			name = Release;
+		};
+		BF821279217E03500088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				INFOPLIST_FILE = VHLObfuscationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VHLObfuscationDemo;
+			};
+			name = Debug;
+		};
+		BF82127A217E03500088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				INFOPLIST_FILE = VHLObfuscationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLObfuscationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VHLObfuscationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF821241217E034F0088656A /* Build configuration list for PBXProject "VHLObfuscationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF821270217E03500088656A /* Debug */,
+				BF821271217E03500088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF821272217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF821273217E03500088656A /* Debug */,
+				BF821274217E03500088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF821275217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF821276217E03500088656A /* Debug */,
+				BF821277217E03500088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF821278217E03500088656A /* Build configuration list for PBXNativeTarget "VHLObfuscationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF821279217E03500088656A /* Debug */,
+				BF82127A217E03500088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF82123E217E034F0088656A /* Project object */;
+}

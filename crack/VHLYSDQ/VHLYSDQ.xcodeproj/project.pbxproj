@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF821294217ECC1A0088656A /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF821293217ECC1A0088656A /* MDConfig.plist */; };
+		BF82129E217ECC1A0088656A /* libVHLYSDQDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF82129D217ECC1A0088656A /* libVHLYSDQDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BF8212A3217ECC1A0088656A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8212A2217ECC1A0088656A /* JavaScriptCore.framework */; };
+		BF8212A5217ECC1A0088656A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8212A4217ECC1A0088656A /* Foundation.framework */; };
+		BF8212A7217ECC1A0088656A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8212A6217ECC1A0088656A /* UIKit.framework */; };
+		BF8212AC217ECC1A0088656A /* VHLYSDQDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8212AB217ECC1A0088656A /* VHLYSDQDylib.mm */; };
+		BF8212AF217ECC1A0088656A /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212AE217ECC1A0088656A /* MDConfigManager.h */; };
+		BF8212B1217ECC1A0088656A /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212B0217ECC1A0088656A /* MDConfigManager.m */; };
+		BF8212B3217ECC1A0088656A /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212B2217ECC1A0088656A /* MDCycriptManager.h */; };
+		BF8212B5217ECC1A0088656A /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212B4217ECC1A0088656A /* MDCycriptManager.m */; };
+		BF8212B7217ECC1A0088656A /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212B6217ECC1A0088656A /* MDMethodTrace.h */; };
+		BF8212B9217ECC1A0088656A /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212B8217ECC1A0088656A /* MDMethodTrace.m */; };
+		BF8212BB217ECC1A0088656A /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212BA217ECC1A0088656A /* ANYMethodLog.h */; };
+		BF8212BD217ECC1A0088656A /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212BC217ECC1A0088656A /* ANYMethodLog.m */; };
+		BF8212C0217ECC1A0088656A /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212BF217ECC1A0088656A /* LLDBTools.h */; };
+		BF8212C2217ECC1A0088656A /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF8212C1217ECC1A0088656A /* LLDBTools.mm */; };
+		BF8212C7217ECC1A0088656A /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212C6217ECC1A0088656A /* AntiAntiDebug.m */; };
+		BF8212CA217ECC1A0088656A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = BF8212C9217ECC1A0088656A /* fishhook.c */; };
+		BF8212CC217ECC1A0088656A /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212CB217ECC1A0088656A /* fishhook.h */; };
+		BF8212CE217ECC1A0088656A /* VHLYSDQDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8212CD217ECC1A0088656A /* VHLYSDQDylib.h */; };
+		BF8212D0217ECC1A0088656A /* VHLYSDQDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8212CF217ECC1A0088656A /* VHLYSDQDylib.m */; };
+		BF8212DA217ECC6F0088656A /* LZMVideoProj.app in Resources */ = {isa = PBXBuildFile; fileRef = BF8212D9217ECC6E0088656A /* LZMVideoProj.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF82129F217ECC1A0088656A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF821281217ECC1A0088656A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF82129C217ECC1A0088656A;
+			remoteInfo = VHLYSDQDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF821289217ECC1A0088656A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF82129E217ECC1A0088656A /* libVHLYSDQDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF82128C217ECC1A0088656A /* VHLYSDQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VHLYSDQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82128F217ECC1A0088656A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BF821291217ECC1A0088656A /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		BF821293217ECC1A0088656A /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		BF821296217ECC1A0088656A /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		BF821297217ECC1A0088656A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF82129D217ECC1A0088656A /* libVHLYSDQDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libVHLYSDQDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8212A2217ECC1A0088656A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BF8212A4217ECC1A0088656A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF8212A6217ECC1A0088656A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF8212AA217ECC1A0088656A /* VHLYSDQDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = VHLYSDQDylib.xm; path = Logos/VHLYSDQDylib.xm; sourceTree = "<group>"; };
+		BF8212AB217ECC1A0088656A /* VHLYSDQDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VHLYSDQDylib.mm; path = Logos/VHLYSDQDylib.mm; sourceTree = "<group>"; };
+		BF8212AE217ECC1A0088656A /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		BF8212B0217ECC1A0088656A /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		BF8212B2217ECC1A0088656A /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		BF8212B4217ECC1A0088656A /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		BF8212B6217ECC1A0088656A /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		BF8212B8217ECC1A0088656A /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		BF8212BA217ECC1A0088656A /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		BF8212BC217ECC1A0088656A /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		BF8212BF217ECC1A0088656A /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		BF8212C1217ECC1A0088656A /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		BF8212C4217ECC1A0088656A /* VHLYSDQDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VHLYSDQDylib-Prefix.pch"; sourceTree = "<group>"; };
+		BF8212C6217ECC1A0088656A /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		BF8212C9217ECC1A0088656A /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		BF8212CB217ECC1A0088656A /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		BF8212CD217ECC1A0088656A /* VHLYSDQDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHLYSDQDylib.h; sourceTree = "<group>"; };
+		BF8212CF217ECC1A0088656A /* VHLYSDQDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHLYSDQDylib.m; sourceTree = "<group>"; };
+		BF8212D9217ECC6E0088656A /* LZMVideoProj.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = LZMVideoProj.app; path = TargetApp/LZMVideoProj.app; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF821286217ECC1A0088656A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82129A217ECC1A0088656A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8212A3217ECC1A0088656A /* JavaScriptCore.framework in Frameworks */,
+				BF8212A7217ECC1A0088656A /* UIKit.framework in Frameworks */,
+				BF8212A5217ECC1A0088656A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF821280217ECC1A0088656A = {
+			isa = PBXGroup;
+			children = (
+				BF82128E217ECC1A0088656A /* VHLYSDQ */,
+				BF8212A8217ECC1A0088656A /* VHLYSDQDylib */,
+				BF8212A1217ECC1A0088656A /* Frameworks */,
+				BF82128D217ECC1A0088656A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF82128D217ECC1A0088656A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF82128C217ECC1A0088656A /* VHLYSDQ.app */,
+				BF82129D217ECC1A0088656A /* libVHLYSDQDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF82128E217ECC1A0088656A /* VHLYSDQ */ = {
+			isa = PBXGroup;
+			children = (
+				BF82128F217ECC1A0088656A /* icon.png */,
+				BF821297217ECC1A0088656A /* Info.plist */,
+				BF821290217ECC1A0088656A /* Scripts */,
+				BF821292217ECC1A0088656A /* Config */,
+				BF821295217ECC1A0088656A /* TargetApp */,
+			);
+			path = VHLYSDQ;
+			sourceTree = "<group>";
+		};
+		BF821290217ECC1A0088656A /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				BF821291217ECC1A0088656A /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		BF821292217ECC1A0088656A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BF821293217ECC1A0088656A /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		BF821295217ECC1A0088656A /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212D9217ECC6E0088656A /* LZMVideoProj.app */,
+				BF821296217ECC1A0088656A /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		BF8212A1217ECC1A0088656A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212A2217ECC1A0088656A /* JavaScriptCore.framework */,
+				BF8212A4217ECC1A0088656A /* Foundation.framework */,
+				BF8212A6217ECC1A0088656A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8212A8217ECC1A0088656A /* VHLYSDQDylib */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212CD217ECC1A0088656A /* VHLYSDQDylib.h */,
+				BF8212CF217ECC1A0088656A /* VHLYSDQDylib.m */,
+				BF8212A9217ECC1A0088656A /* Logos */,
+				BF8212AD217ECC1A0088656A /* Config */,
+				BF8212BE217ECC1A0088656A /* Tools */,
+				BF8212C5217ECC1A0088656A /* AntiAntiDebug */,
+				BF8212C8217ECC1A0088656A /* fishhook */,
+				BF8212C3217ECC1A0088656A /* Supporting Files */,
+			);
+			path = VHLYSDQDylib;
+			sourceTree = "<group>";
+		};
+		BF8212A9217ECC1A0088656A /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212AA217ECC1A0088656A /* VHLYSDQDylib.xm */,
+				BF8212AB217ECC1A0088656A /* VHLYSDQDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		BF8212AD217ECC1A0088656A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212AE217ECC1A0088656A /* MDConfigManager.h */,
+				BF8212B0217ECC1A0088656A /* MDConfigManager.m */,
+				BF8212B2217ECC1A0088656A /* MDCycriptManager.h */,
+				BF8212B4217ECC1A0088656A /* MDCycriptManager.m */,
+				BF8212B6217ECC1A0088656A /* MDMethodTrace.h */,
+				BF8212B8217ECC1A0088656A /* MDMethodTrace.m */,
+				BF8212BA217ECC1A0088656A /* ANYMethodLog.h */,
+				BF8212BC217ECC1A0088656A /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		BF8212BE217ECC1A0088656A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212BF217ECC1A0088656A /* LLDBTools.h */,
+				BF8212C1217ECC1A0088656A /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		BF8212C3217ECC1A0088656A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212C4217ECC1A0088656A /* VHLYSDQDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF8212C5217ECC1A0088656A /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212C6217ECC1A0088656A /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		BF8212C8217ECC1A0088656A /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				BF8212C9217ECC1A0088656A /* fishhook.c */,
+				BF8212CB217ECC1A0088656A /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF82129B217ECC1A0088656A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8212B3217ECC1A0088656A /* MDCycriptManager.h in Headers */,
+				BF8212B7217ECC1A0088656A /* MDMethodTrace.h in Headers */,
+				BF8212C0217ECC1A0088656A /* LLDBTools.h in Headers */,
+				BF8212AF217ECC1A0088656A /* MDConfigManager.h in Headers */,
+				BF8212CE217ECC1A0088656A /* VHLYSDQDylib.h in Headers */,
+				BF8212BB217ECC1A0088656A /* ANYMethodLog.h in Headers */,
+				BF8212CC217ECC1A0088656A /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF82128B217ECC1A0088656A /* VHLYSDQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8212D6217ECC1A0088656A /* Build configuration list for PBXNativeTarget "VHLYSDQ" */;
+			buildPhases = (
+				BF821285217ECC1A0088656A /* Sources */,
+				BF821286217ECC1A0088656A /* Frameworks */,
+				BF821287217ECC1A0088656A /* ShellScript */,
+				BF821288217ECC1A0088656A /* Resources */,
+				BF821289217ECC1A0088656A /* CopyFiles */,
+				BF82128A217ECC1A0088656A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8212A0217ECC1A0088656A /* PBXTargetDependency */,
+			);
+			name = VHLYSDQ;
+			productName = VHLYSDQ;
+			productReference = BF82128C217ECC1A0088656A /* VHLYSDQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF82129C217ECC1A0088656A /* VHLYSDQDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8212D3217ECC1A0088656A /* Build configuration list for PBXNativeTarget "VHLYSDQDylib" */;
+			buildPhases = (
+				BF821298217ECC1A0088656A /* ShellScript */,
+				BF821299217ECC1A0088656A /* Sources */,
+				BF82129A217ECC1A0088656A /* Frameworks */,
+				BF82129B217ECC1A0088656A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VHLYSDQDylib;
+			productName = VHLYSDQDylib;
+			productReference = BF82129D217ECC1A0088656A /* libVHLYSDQDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF821281217ECC1A0088656A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Darnel Studio";
+				TargetAttributes = {
+					BF82128B217ECC1A0088656A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF82129C217ECC1A0088656A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BF821284217ECC1A0088656A /* Build configuration list for PBXProject "VHLYSDQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF821280217ECC1A0088656A;
+			productRefGroup = BF82128D217ECC1A0088656A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF82128B217ECC1A0088656A /* VHLYSDQ */,
+				BF82129C217ECC1A0088656A /* VHLYSDQDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF821288217ECC1A0088656A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8212DA217ECC6F0088656A /* LZMVideoProj.app in Resources */,
+				BF821294217ECC1A0088656A /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF821287217ECC1A0088656A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		BF82128A217ECC1A0088656A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		BF821298217ECC1A0088656A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF821285217ECC1A0088656A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF821299217ECC1A0088656A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8212B5217ECC1A0088656A /* MDCycriptManager.m in Sources */,
+				BF8212BD217ECC1A0088656A /* ANYMethodLog.m in Sources */,
+				BF8212B1217ECC1A0088656A /* MDConfigManager.m in Sources */,
+				BF8212C2217ECC1A0088656A /* LLDBTools.mm in Sources */,
+				BF8212AC217ECC1A0088656A /* VHLYSDQDylib.mm in Sources */,
+				BF8212B9217ECC1A0088656A /* MDMethodTrace.m in Sources */,
+				BF8212CA217ECC1A0088656A /* fishhook.c in Sources */,
+				BF8212C7217ECC1A0088656A /* AntiAntiDebug.m in Sources */,
+				BF8212D0217ECC1A0088656A /* VHLYSDQDylib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8212A0217ECC1A0088656A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF82129C217ECC1A0088656A /* VHLYSDQDylib */;
+			targetProxy = BF82129F217ECC1A0088656A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF8212D1217ECC1A0088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8212D2217ECC1A0088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8212D4217ECC1A0088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VHLYSDQDylib/VHLYSDQDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libVHLYSDQDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"VHLYSDQDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		BF8212D5217ECC1A0088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 3N2YQM983F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VHLYSDQDylib/VHLYSDQDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libVHLYSDQDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"VHLYSDQDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF8212D7217ECC1A0088656A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYG5F947FP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VHLYSDQ/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLYSDQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8212D8217ECC1A0088656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYG5F947FP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VHLYSDQ/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vincents.VHLYSDQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF821284217ECC1A0088656A /* Build configuration list for PBXProject "VHLYSDQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8212D1217ECC1A0088656A /* Debug */,
+				BF8212D2217ECC1A0088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8212D3217ECC1A0088656A /* Build configuration list for PBXNativeTarget "VHLYSDQDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8212D4217ECC1A0088656A /* Debug */,
+				BF8212D5217ECC1A0088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8212D6217ECC1A0088656A /* Build configuration list for PBXNativeTarget "VHLYSDQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8212D7217ECC1A0088656A /* Debug */,
+				BF8212D8217ECC1A0088656A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF821281217ECC1A0088656A /* Project object */;
+}
