@@ -63,11 +63,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/vincent/Desktop/code/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo2"
+            argument = "/Users/vincent/Documents/github.com/iOSObfuscator/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo3"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-modifyProjectName VHLSpamCodeDemo1&gt;VHLSpamCodeDemo2"
+            argument = "-modifyProjectName VHLSpamCodeDemo2&gt;VHLSpamCodeDemo3"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
@@ -75,16 +75,16 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-modifyClassNamePrefix /Users/vincent/Desktop/code/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo2.xcodeproj VIN&gt;VHL"
+            argument = "-modifyClassNamePrefix /Users/vincent/Documents/github.com/iOSObfuscator/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo3.xcodeproj VIN&gt;VHL"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-spamCodeOut /Users/vincent/Desktop/code/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo2/SpamCode VSpam"
+            argument = "-spamCodeOut /Users/vincent/Documents/github.com/iOSObfuscator/first/spamCode/VHLSpamCodeDemo/VHLSpamCodeDemo3/SpamCode VSpam"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-handleXcassets"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-deleteComments"
